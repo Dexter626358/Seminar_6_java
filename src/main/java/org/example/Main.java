@@ -22,13 +22,7 @@ import static org.example.NoteBook.*;
  */
 public class Main {
     public static void main(String[] args) {
-        int field = fieldRequest();
-        String userValue = NoteBook.valueRequest(field);
-        HashSet<ArrayList<String>> setResult = getResult(userValue);
-        NoteBook.printer(setResult);
-
-
-
+        Shop.fieldRequest();
 
 
     }
